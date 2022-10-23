@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Error 404</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+  <link rel="short cut icon" href="./Images/logo fravega proyecto.htm">
+
+  <link rel="stylesheet" href="estilos.css">
+
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg bg-light navbar-dark fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">  </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav align-items-center">
+          <li class="nav-item">
+            <a class="nav-link active fs-4" aria-current="page" href="#"><i class="bi bi-xbox"></i>Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./pages/error.html">Caracteristicas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./pages/cuenta.html">Accede a tu cuenta</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Enlace desplegado
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="./pages/error.html">Acerca de nosotros</a></li>
+              <li><a class="dropdown-item" href="./pages/error.html">Otras opciones</a></li>
+              <li><a class="dropdown-item" href="./pages/error.html">Contacto</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <button type="button" class="btn btn-primary " data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+        Login
+      </button>
+    </div>
+  </nav>
+
+  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content modal-bg text-white">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="staticBackdropLabel">Registrese</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="mb-3 row">
+            <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
+            <div class="col-sm-10">
+              <input type="text" class="form-control" id="staticEmail" >
+            </div>
+          </div>
+          <div class="mb-3 row">
+            <label for="inputPassword" class="col-sm-2 col-form-label">Password</label>
+            <div class="col-sm-10">
+              <input type="password" class="form-control" id="inputPassword">
+            </div>
+          </div>
+        </div>
+        <div class="input-group mb-3">
+          <div class="input-group-text">
+            <input class="form-check-input mt-0" type="checkbox" value="" aria-label="Checkbox for following text input">
+          </div>
+          <input type="text" placeholder="Quiero recibir notificaciones" readonly class="form-control" aria-label="Text input with checkbox">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+          <button type="button" class="btn btn-primary"><a href="./pages/error.html" class="suscript">Suscribirme</a></button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <main>
+
+  <section id="offers-carousel" class="carousel slide" data-bs-ride="true">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#offers-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#offers-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#offers-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./Imágenes/sams1.webp" class="d-none d-md-block w-100" alt="oferta televisor">
+        <img src="./Imágenes/sams1.webp" class="d-sm-block d-md-none w-100" alt="oferta televisor">
+      </div>
+      <div class="carousel-item">
+        <img src="./Imágenes/sams3.webp" class="d-none d-md-block w-100" alt="oferta dia de la madre">
+        <img src="./Imágenes/sams3.webp" class="d-sm-block d-md-none w-100" alt="oferta dia de la madre">
+      </div>  
+      <div class="carousel-item">
+        <img src="./Imágenes/sasm7.webp" class="d-none d-md-block w-100" alt="oferta celulares">
+        <img src="./Imágenes/sasm7.webp" class="d-sm-block d-md-none w-100" alt="oferta celulares">
+      </div>  
+    <button class="carousel-control-prev" type="button" data-bs-target="#offers-carousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#offers-carousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </section>
+
+  <section class="row justify-content-between flex-md-row mx-5">
+
+    <section class="mt-5 caja9001 col-md-6">    
+        <article class="d-flex flex-column bg-opacity-25 shadow">
+
+          <section class="d-flex p-2">      
+            <div class="card aurora border-light">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="./Imágenes/cocina.jpg" class="img-fluid rounded-start" alt="Cocina">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <p class="card-title text-center electro fw-bold">Cocina Aurora</p>
+                    <p class="card-text descripcion">Cocina a gas. 4 Hornallas. Puerta rebatible y desmontable. Material de la plancha Enlozado negro. Material de rejillas superiores hierro enlozado...<a href="./pages/cocina.html">Ver más</a> </p>
+                    <p class="card-text"><small class="text-muted">Quedan 4 unidades</small></p>
+                    <a href="./pages/error.html" class="btn btn-primary mb-2">Comprar</a>
+                    <a href="./pages/error.html" class="btn btn-primary mb-2">Agregar al carrito</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
+    
+          <section class="d-flex p-2"> 
+            <div class="card aurora border-light">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="./Imágenes/lavarropas.jpg" class="img-fluid rounded-start" alt="Lavarropas">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h4 class="card-title text-center electro">Lavarropas automático electrolux</h4>
+                    <p class="card-text descripcion">Capacidad 6.5Kg. 6 Programas de lavado. Display digital. Tambor de acero (diseno diamante). Lavado rapido de 29'...<a href="./pages/lavarropas.html">Ver más</a> </p>
+                    <p class="card-text"><small class="text-muted">Quedan 2 unidades</small></p>
+                    <a href="./pages/error.html" class="btn btn-primary mb-2">Comprar</a>
+                    <a href="./pages/error.html" class="btn btn-primary mb-2">Agregar al carrito</a>
+                  </div>
+                </div>
+              </div>
+            </div>  
+            
+          </section>
+    
+          <section class="d-flex p-2">      
+            <div class="card aurora border-light">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="./Imágenes/helade.jpg" class="img-fluid rounded-start" alt="Heladera">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h4 class="card-title text-center electro">Heladera Samsung</h4>
+                    <p class="card-text descripcion">Heladera con freezer. Con 282L de capacidad de almacenamiento, es la solucion ideal para preservar alimentos y bebidas de todo tipo, de forma practica y organizada.<a href="./pages/heladera.html">Ver más</a> </p>
+                    <p class="card-text"><small class="text-muted">Quedan 6 unidades</small></p>
+                    <a href="./pages/error.html" class="btn btn-primary mb-2">Comprar</a>
+                    <a href="./pages/error.html" class="btn btn-primary mb-2">Agregar al carrito</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+    
+          <section class="d-flex justify-content-center">  
+               
+            <nav aria-label="Page navigation">
+              <ul class="pagination">
+                <li class="page-item">
+                  <a class="page-link" href="./pages/error.html" aria-label="Previous">
+                    <span aria-hidden="true">&laquo;</span>
+                  </a>
+                </li>
+                <li class="page-item"><a class="page-link" href="./pages/error.html">1</a></li>
+                <li class="page-item"><a class="page-link" href="./pages/error.html">2</a></li>
+                <li class="page-item"><a class="page-link" href="./pages/error.html">3</a></li>
+                <li class="page-item">
+                  <a class="page-link" href="./pages/error.html" aria-label="Next">
+                    <span aria-hidden="true">&raquo;</span>
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </section>
+        </article>
+    </section>    
+
+    <section class="container caja9002 p-3 col-md-4 mt-5">
+        <article class="d-flex flex-column bg-opacity-25 shadow">
+          <form class="row">
+            <div class="">
+              <input type="text" class="form-control input" placeholder="aplique su búsqueda">
+            </div>
+            <div class="">
+              <button type="button" class="btn btn-info w-100 mt-3"><a href="./pages/error.html">Ir a búsqueda</a></button>
+            </div>            
+          </form>
+          <ul class="navbar-nav m-4">
+            <h3 class="text-light">Selección por categoría</h3>
+            <li class="nav-item lh-1"><a href="./pages/error.html" class="nav-link link-light">Hogar</a>
+            </li>
+            <li class="nav-item lh-1"><a href="./pages/error.html" class="nav-link link-light">Televisores</a>
+            </li>
+            <li class="nav-item lh-1"><a href="./pages/error.html" class="nav-link link-light">Celulares</a>
+            </li>
+            <li class="nav-item lh-1"><a href="./pages/error.html" class="nav-link link-light">Heladeras</a>
+            </li>
+            <li class="nav-item lh-1"><a href="./pages/error.html" class="nav-link link-light">Climatización</a>
+            </li>
+            <li class="nav-item lh-1"><a href="./pages/error.html" class="nav-link link-light">Lavarropas</a>
+            </li>
+            <li class="nav-item lh-1"><a href="./pages/error.html" class="nav-link link-light">Telefonía</a>
+            </li>
+            <li class="nav-item lh-1"><a href="./pages/error.html" class="nav-link link-light">Notebooks</a>
+            </li>
+            <li class="nav-item lh-1"><a href="./pages/error.html" class="nav-link link-light">Tablets</a>
+            </li>
+            <li class="nav-item lh-1"><a href="./pages/error.html" class="nav-link link-light">Accesorios</a>
+            </li>
+            <li class="nav-item lh-1"><a href="./pages/error.html" class="nav-link link-light">Rodados</a>
+            </li>
+          </ul>          
+          <div>
+            <a href="./pages/error.html" target="_blank"><img src="./Imágenes/publi.jpg" alt="Publicidad" class="w-100 mb-1"></a>
+            <a href="./pages/error.html" target="_blank"><img src="./Imágenes/horno.jpg" alt="Publicidad" class="w-100 mb-1"></a>
+          </div>    
+        </article>
+    </section>
+
+  </section>
+
+  </main>
+
+  <section id="sliderscarousel" class="carousel slide" data-bs-ride="true">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#sliderscarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#sliderscarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#sliderscarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./Imágenes/slide1.webp" class="d-none d-md-block w-100" alt="oferta televisor">
+        <img src="./Imágenes/slide1.webp" class="d-sm-block d-md-none w-100" alt="oferta televisor">
+      </div>
+      <div class="carousel-item">
+        <img src="./Imágenes/slide2.webp" class="d-none d-md-block w-100" alt="oferta dia de la madre">
+        <img src="./Imágenes/slide2.webp" class="d-sm-block d-md-none w-100" alt="oferta dia de la madre">
+      </div>
+      <div class="carousel-item">
+        <img src="./Imágenes/slide3.webp" class="d-none d-md-block w-100" alt="oferta celulares">
+        <img src="./Imágenes/slide3.webp" class="d-sm-block d-md-none w-100" alt="oferta celulares">
+      </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#sliderscarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#sliderscarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </section>
+
+  <section class="mt-3">
+    <h3 class="ofertas-titulo d-flex justify-content-center p-3 shadow-lg">Ofertas imperdibles!</h3>
+    <article class="container mt-2 mb-5">
+    <div class="row">
+      <div class="col-lg-3 col-md-4 col-sm-10 mt-2 picture">
+          <img src="./Imágenes/celular-zte.jpg" alt="celular" class="img-fluid rounded shadow">
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-10 mt-2 picture">
+        <img src="./Imágenes/heladera.png" alt="heladera" class="img-fluid rounded ">
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-10 mt-2 picture">
+        <img src="./Imágenes/lavarrop.png" alt="lavarropas" class="img-fluid rounded shadow">
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-10 mt-2 picture">
+        <img src="./Imágenes/tv2.jpg" alt="televisor" class="img-fluid rounded shadow">
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-10 mt-2 picture">
+        <img src="./Imágenes/cook.png" alt="cocina" class="img-fluid rounded ">
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-10 mt-2 picture">
+        <img src="./Imágenes/aire-acondicionado.png" alt="aire acondicionado" class="img-fluid rounded">
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-10 mt-2 picture">
+        <img src="./Imágenes/freezer.png" alt="freezer" class="img-fluid rounded">
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-10 mt-2 picture">
+        <img src="./Imágenes/notebook.png" alt="laptop" class="img-fluid rounded">
+      </div>
+    </div>
+    </article>
+  </section>
+
+  <footer>
+    <div class="container-fluid">
+      <div class="row p-5">
+        <div class="col-xs-12 col-md-6 col-lg-3">
+          <p class="h1 text-white">Error-404</p>
+          <p class="fs-3 mb-1 text-white">Electrodomésticos</p>
+          <p class="fs-3 mb-1 text-white">La mejor solución</p>
+          <a href="https://www.facebook.com/" target="_blank" class="footer-link">
+              <i class="text-secondary bi bi-facebook fs-3"></i>
+          </a>
+          <a href="https://www.twitter.com/" target="_blank" class="footer-link">
+              <i class="text-secondary bi bi-twitter fs-3"></i>
+          </a>
+          <a href="https://www.instagram.com/" target="_blank" class="footer-link">
+              <i class="text-secondary bi bi-instagram fs-3"></i>
+          </a>
+          <a href="https://www.youtube.com/" target="_blank" class="footer-link">
+              <i class="text-secondary bi bi-youtube fs-3"></i>
+          </a>
+          <a href="https://www.telegram.com/" target="_blank" class="footer-link">
+              <i class="text-secondary bi bi-telegram fs-3"></i>
+          </a>
+        </div>
+        <div class="col-xs-12 col-md-6 col-lg-3">
+            <p class="fs-4 text-secondary">Atención al Cliente:</p>
+            <p class="text-white mb-1">0800 404 37707</p>
+            <p class="text-white mb-1">0810 404 37707</p>
+            <p class="text-secondary mb-1">Lu a Vi de 09:00 a 18:00</p>
+            <p class="text-secondary mb-1">Sa de 9:00 a 13:00</p>
+        </div>
+        <div class="col-xs-12 col-md-6 col-lg-3">
+          <p class="fs-4 text-secondary">Ventas Telefónica:</p>
+          <p class="text-white mb-1">0810 404 37707</p>
+            <p class="text-secondary mb-1">
+                Lu a Vi de 8:00 a 20:00
+            </p>
+            <p class="text-secondary mb-1">
+                Sa, Do y Feriados 9:00 a 21:00
+            </p>
+        </div>
+        <div class="col-xs-12 col-md-6 col-lg-3">
+          <p class="fs-4 text-secondary">Recomendados:</p>
+            <div> 
+             <a class="text-white text-decoration-none" href="https://www.cetrogar.com.ar/tecnologia/tv-video/led-y-smartv.html" target="_blank">Smart TV</a>
+            </div>
+            <div>
+                <a class="text-white text-decoration-none" href="https://www.cetrogar.com.ar/tecnologia/celulares-accesorios/smartphones.html" target="_blank">Celulares</a>
+            </div>
+            <div>
+                <a class="text-white text-decoration-none" href="https://www.cetrogar.com.ar/electrodomesticos/climatizacion/aires-acondicionados.html" target="_blank">Aire acondicionado</a>
+            </div>
+            <div>
+                <a class="text-white text-decoration-none" href="https://www.cetrogar.com.ar/tecnologia/informatica/tablets-y-notebooks.html" target="_blank">Notebooks y Tablets</a>
+            </div>
+        </div>
+            <div class="text-center">
+              <p class="text-white">
+                © Error-404 2022 - Todos los derechos reservados  
+              </p>
+              <p class="text-secondary">
+                El uso de este sitio web implica la aceptación de los Términos y Condiciones y de las Políticas de Privacidad de Tienda Error-404. Las fotos son a modo ilustrativo. Las especificaciones técnicas y descripciones están sujetas a cambios sin previo aviso. La venta de cualquiera de los productos publicados está sujeta a la verificación de stock. Los precios online para los productos publicados en www.Error-404.com.ar son válidos exclusivamente para la compra vía internet.
+              </p>
+            </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+  
+</body>
+</html>

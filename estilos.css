@@ -1,0 +1,154 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --nav: rgb(111, 42, 209);
+}
+
+.suscript{
+  text-decoration: none;
+  color: white;
+}
+
+.navbar {
+  background-color: rgb(111, 42, 209) !important;
+}
+
+button {
+  padding-right: 1em !important;
+}
+
+.modal-bg {
+  background: repeating-radial-gradient(circle, rgba(225, 225, 225, 0.678), rgb(153, 43, 153));
+}
+
+.caja9001{
+  background: repeating-radial-gradient(circle, rgba(225, 225, 225, 0.678), rgb(71, 6, 71));
+}
+
+.caja9002{
+  background: repeating-radial-gradient(circle, rgba(225, 225, 225, 0.678), rgb(71, 6, 71));
+  align-self: baseline;
+}
+
+#offers-carousel{
+  margin-top: 5rem;
+}
+
+.aurora{
+  background: repeating-linear-gradient(65deg, rgb(241, 242, 196), white 5%)
+}
+
+@media screen and (min-width: 576px){
+  .electro{
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 768px){
+  .electro{
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 1400px){
+  .descripcion{
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .descripcion{
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 576px){
+  .descripcion{
+    font-size: 11px;
+  }
+}
+
+@media screen and (max-width: 1400px){
+  .table{
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .table{
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 576px){
+  .table{
+    font-size: 11px;
+  }
+}
+
+#sliderscarousel{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.table{
+  border: 1px solid black
+}
+
+.picture:hover {
+  transform: scale(1.2);
+  transition: transform .2s;
+}
+
+.ofertas-titulo{
+  color: white;
+  background: rgb(111,42,209);
+  background: linear-gradient(90deg, rgba(111,42,209,1) 0%, rgba(136,53,255,1) 50%, rgba(55,23,102,1) 100%, rgba(255,255,255,1) 111%);
+}
+
+.btn.btn-primary{
+  background-color: rgb(111, 42, 209);
+}
+
+.btn-facebook{
+  color: white;
+  background-color: #3b5998;
+}
+
+.btn-google{
+  color: white;
+  background-color: #4285f4;
+}
+
+.container-fluid{
+  background-color: rgba(77, 4, 133, 0.895);
+}
+
+.botonerror {
+  color: white;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 50px;
+  border: 1px dotted white;
+  border-radius: 8px;
+}
+
+.botonerror{
+  background-color: rgb(86, 24, 145);
+  color: rgb(250, 244, 244);
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.footer-link {
+  text-decoration: none;
+}
+
+.superior{
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+}
